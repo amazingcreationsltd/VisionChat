@@ -11,8 +11,8 @@ import asyncio
 import threading
 import os
 
-groq_client = Groq(api_key="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")
-genai.configure(api_key='AIzaSyAJyVbIvw9xDpCM3pCbE7WfdIjNk9KQzWo')
+groq_client = Groq(api_key="---PUT YOUR API HERE---")
+genai.configure(api_key='----PUT YOUR API HERE------')
 web_cam = cv2.VideoCapture(0)
 
 sys_msg = (
